@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
+  all_food = []
+  groceries.each {|food_type,value|  all_food.push(groceries[food_type])}
 
-  
+  return all_food.flatten
 
 end
